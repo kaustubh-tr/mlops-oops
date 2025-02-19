@@ -36,3 +36,7 @@ employee1.travel("City1", "Project2")
 ## function vs method
 # A function is a block of code that performs a specific task and can be defined outside of a class.
 # A method is essentially a function that is defined inside a class.
+
+## what is self?
+# self refers to the current instance (object) of the class.
+# It is automatically passed to instance methods, allowing access to the object's attributes and methods.
