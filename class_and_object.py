@@ -32,3 +32,7 @@ print(type(employee1))  # Display the type of object (Employee)
 print()
 employee1.project("Project1")
 employee1.travel("City1", "Project2")
+
+## function vs method
+# A function is a block of code that performs a specific task and can be defined outside of a class.
+# A method is essentially a function that is defined inside a class.
