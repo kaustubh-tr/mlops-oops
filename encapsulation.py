@@ -24,6 +24,9 @@ class BankAccount:
 # Create an object
 account = BankAccount(1000, "John Doe")
 
+# Print the id of the object
+print(id(account))  # This will print the memory address of the 'account' object
+
 # Accessing public attribute
 print(account.account_type)  # Output: Savings
 
