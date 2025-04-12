@@ -1,5 +1,11 @@
 # Operator Overloading (A type of Polymorphism)
 
+# Operator overloading is a type of polymorphism where we define or change the behavior
+# of standard operators (like +, -, *, ==, etc.) for user-defined classes.
+
+# In Python, this is done by defining special methods (also called "magic" or "dunder" methods)
+# such as __add__, __sub__, __eq__, __str__, and so on.
+
 class ComplexNumber:
     def __init__(self, real, img):
         # Constructor to initialize the complex number with real and imaginary parts
